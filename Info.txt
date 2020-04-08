@@ -1,0 +1,15 @@
+Xamarin.Forms
+  App.xaml: 
+    Point of entry to the application.
+	set resorce here.
+  Flow:
+    HelloWorld.Droid.MainActivity.OnCreate() > new App() > MainPage()
+    iOS > AppDelegate
+  
+  Layouts:
+    No Layout:
+	  Controls overlap each other so last control only visible.
+    Margin="Left,Top,Right,Bottom" (clockwise, starting from left)
+    StackLayout:
+	  Controls are arranged in stack.
+      
