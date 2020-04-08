@@ -17,5 +17,12 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void Handle_Clicked(object sender, EventArgs e)
+        {
+            var name = nameEntry.Text;
+            var greeting = $"Hello! {name}";
+            greetingLbl.Text = greeting;
+        }
     }
 }
