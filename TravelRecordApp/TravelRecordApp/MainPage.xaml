@@ -13,7 +13,8 @@
         <!--Button is taking implicit xaml style from App.xaml-->
         <Button x:Name="LoginButton"
                 Text="Log In"
-                Clicked="LoginButton_Clicked"/>
+                Clicked="LoginButton_Clicked"
+                Style="{StaticResource normalButton}"/>
     </StackLayout>
 
 </ContentPage>
