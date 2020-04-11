@@ -5,11 +5,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TravelRecordApp.App">
+    <!--set button control property like background color and text color-->
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="blueColor">
-                #1E90FF
-            </Color>
+            <Color x:Key="blueColor">#1E90FF</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
