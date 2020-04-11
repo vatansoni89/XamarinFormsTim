@@ -23,4 +23,7 @@ Xamarin.Forms
 	A ToolbarItem instance can have an icon and appear as a primary or secondary menu item.
   XAML Resources:
     To apply a common style over controls.
+  XAML Style:
+    Implicit Style: It depends on control.
+	Explicit Style: It depends on style key.
     
