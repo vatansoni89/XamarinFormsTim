@@ -21,3 +21,6 @@ Xamarin.Forms
     The Xamarin. Forms ToolbarItem class is a special type of button that can be added to a Page object's ToolbarItems collection. 
 	Each ToolbarItem object will appear as a button in the application's navigation bar. 
 	A ToolbarItem instance can have an icon and appear as a primary or secondary menu item.
+  XAML Resources:
+    To apply a common style over controls.
+    

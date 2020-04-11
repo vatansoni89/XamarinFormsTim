@@ -7,12 +7,12 @@
              x:Class="TravelRecordApp.MainPage">
 
     <StackLayout VerticalOptions="CenterAndExpand"  Margin="5,5,5,0">
-        <Entry Placeholder="Email" x:Name="emailEntry" Keyboard="Email"/>
+        <Entry Placeholder="Email" x:Name="emailEntry" Keyboard="Email" Text="ForColorTest" TextColor="{StaticResource blueColor}"/>
         <Entry Placeholder="Password" x:Name="passwordEntry" IsPassword="True"/>
         <Button x:Name="LoginButton"
                 Text="Log In"
                 Clicked="LoginButton_Clicked"
-                BackgroundColor="DodgerBlue"
+                BackgroundColor="{StaticResource blueColor}"
                 TextColor="White"/>
     </StackLayout>
 
