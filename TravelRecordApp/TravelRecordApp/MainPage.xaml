@@ -6,9 +6,9 @@
              mc:Ignorable="d"
              x:Class="TravelRecordApp.MainPage">
 
-    <StackLayout VerticalOptions="CenterAndExpand">
-        <Entry Placeholder="Email" Keyboard="Email"/>
-        <Entry Placeholder="Password" IsPassword="True"/>
+    <StackLayout VerticalOptions="CenterAndExpand"  Margin="5,5,5,0">
+        <Entry Placeholder="Email" x:Name="emailEntry" Keyboard="Email"/>
+        <Entry Placeholder="Password" x:Name="passwordEntry" IsPassword="True"/>
         <Button x:Name="LoginButton"
                 Text="Log In"
                 Clicked="LoginButton_Clicked"
