@@ -26,4 +26,8 @@ Xamarin.Forms
   XAML Style:
     Implicit Style: It depends on control.
 	Explicit Style: It depends on style key.
-    
+  SqlLite:
+    Add nuget package (sqlite-net-pcl) to all proj by adding it to solution.
+	ios folder: Library
+	android folder: Personal
+	Imp*: Always close connection after db operations.
