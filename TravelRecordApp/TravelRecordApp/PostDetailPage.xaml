@@ -4,12 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TravelRecordApp.HistoryPage">
-    <ListView x:Name="postListView" ItemSelected="postListView_ItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Experience}" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+             x:Class="TravelRecordApp.PostDetailPage">
+    <StackLayout>
+        <Entry x:Name="experienceEntry"/>
+        <Button x:Name="btnUpdate" Clicked="btnUpdate_Clicked" Text="Update"/>
+        <Button x:Name="btnDelete" Clicked="btnDelete_Clicked"  Text="Delete"/>
+    </StackLayout>
 </ContentPage>
