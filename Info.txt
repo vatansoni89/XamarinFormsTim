@@ -31,3 +31,8 @@ Xamarin.Forms
 	ios folder: Library
 	android folder: Personal
 	Imp*: Always close connection after db operations.
+  Maps:
+    Add Nuget pkg to all proj: Xamarin.Forms.Maps
+	Add APi Key: https://console.developers.google.com/
+	Add access to: AndroidManifest.xml
+	Use <maps:Map tag to core file.
